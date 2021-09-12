@@ -1,0 +1,109 @@
+*{margin: 0 ;padding: 0;}
+.hide{display: none !important;}
+
+.cargame{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    perspective: 500px;
+   
+}
+.score , .level{
+    width: 150px;
+    height: 50px;
+    background: red;
+    border: 2px solid black;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 20px;
+    text-align: center;
+    color:#fff;
+     
+}
+.level{
+     top: 30%;
+     height: 140px;
+    }
+.screen{
+    width: 450px;
+    height: 130px;
+    background: rgba(255, 79, 79);
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    border-radius: 20px;
+    font-size: 25px;
+    color: rgb(252, 189, 189);
+    line-height: 26px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    z-index: 1;
+    
+}
+.overscreen{
+    width: 450px;
+    height: 130px;
+    background: rgba(255, 79, 79, 0.7);
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    border-radius: 20px;
+    font-size: 25px;
+    color: rgb(252, 189, 189);
+    line-height: 26px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    z-index: 1;
+}
+.area{
+    width: 400px;
+    height: 100vh;
+    background-color: #2d3436;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-left: 5px dashed white;
+    border-right: 5px dashed white;
+   
+}
+.car, .enemycar{
+    width: 40px;
+    height: 80px;
+    background-color: ;
+    position: absolute;
+    left: 40%;
+    bottom: 120px;
+    background-image: url('ecar.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.enemycar{
+    width: 40px;
+    height: 80px;
+    border-radius: 8px;
+    position: absolute;
+    background-image: url('car.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+
+
+    <title>game</title>
+</head>
+
+<body>
+
+    <div class="cargame">
+        <div class="score">
+            <h3 style="line-height: 40px;">the score is here</h3>
+        </div>
+        <div class="level">
+            <h3 style="line-height: 40px;">level</h3>
+            <label for="level">Choose a lavel:</label>
+            <select name="level" id="target">
+                <option value="1">EAISY</option>
+                <option value="2">NORMAL</option>
+                <option value="3">HARD</option>
+            </select>
+            <button type="button" onclick="enemycarspeed()">OK</button>
+        </div>
+        <div class="screen ">
+            <p style="margin-top: 10px;">press here to start<br>arrows keys to move <br>if you hit another car you will
+                lose </p>
+        </div>
+        <div class="area">this is car</div>
+        <!-- <div class="overscreen hide"></div> -->
+    </div>
+    <script>
+
+    </script>
+    <script src="game.js"></script>
+
+</body>
+
+</html>
